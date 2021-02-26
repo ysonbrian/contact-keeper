@@ -9,9 +9,6 @@ connectDB();
 //Init Middleware
 app.use(express.json({ extended: false }));
 
-app.get('/', (req, res) => {
-	res.json({ msg: 'Welcome to the ContactKeeper API...' });
-});
 
 // 라우터 정의
 app.use('/api/users', require('./routes/users'));
