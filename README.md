@@ -2,18 +2,18 @@
 
 > MERN contact manager with React hooks, context & JWT authentication
 
-## Usage
+## 사용법
 
-Install dependencies
+인스톨
 
 ```bash
 npm install
 npm client-install
 ```
 
-### Mongo connection setup
+### Mongo 연결 세팅
 
-Edit your /config/default.json file to include the correct MongoDB URI
+/config/default.json 파일에 MongoDB URI을 포함 해주세요
 
 ### Run Server
 
@@ -23,8 +23,6 @@ npm run server  # Express API Only :5000
 npm run client  # React Client Only :3000
 ```
 
-### Web DEMO
+### 데모
 
-```bash
-https://contact-keeper-son.herokuapp.com/
-```
+[데모해보기](https://contact-keeper-son.herokuapp.com/)
